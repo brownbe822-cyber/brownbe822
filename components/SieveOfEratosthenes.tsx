@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Play, Save, CheckCircle } from "lucide-react";
-import { supabase } from "@/lib/supabase";
+import { getSupabase } from "@/lib/supabase";
 
 export default function SieveOfEratosthenes() {
   const [maxNumber, setMaxNumber] = useState<number>(100);
@@ -50,7 +50,7 @@ export default function SieveOfEratosthenes() {
     setIsSaving(true);
     setSaveStatus("idle");
 
-    const { error } = await supabase
+    const { error } = await getSupabase()
       .from("sieve_results")
       .insert([
         {
