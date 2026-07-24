@@ -11,7 +11,7 @@ export default function Home() {
       */}
       <section className="bg-white/60 backdrop-blur-lg rounded-3xl p-8 md:p-16 max-w-4xl w-full mx-auto text-center shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-white/50">
         <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
-          나만의 교육용 웹앱 만들기
+          매쓰온(Math-On)
         </h2>
         
         <p className="text-lg md:text-xl text-gray-500 mb-10 leading-relaxed max-w-xl mx-auto">

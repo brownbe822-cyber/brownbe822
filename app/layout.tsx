@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "나만의 교육용 웹앱",
+  title: "매쓰온(Math-On)",
   description: "선생님들을 위한 교육용 웹앱 기본 뼈대입니다.",
 };
 
